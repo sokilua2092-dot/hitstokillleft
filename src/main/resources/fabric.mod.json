@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "hitstokill",
+  "version": "${version}",
+  "name": "Hits To Kill",
+  "description": "Shows under the crosshair how many hits are left to kill the targeted entity.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.hitstokill.HitsToKillClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
